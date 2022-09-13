@@ -6,7 +6,10 @@
         "outDir": "dist",
         "rootDir": "src",
         "strict": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "jsx": "react",
+        "jsxFactory": "element",
+        "jsxFragmentFactory": "fragment"
     },
     "baseUrl": "src",
     "include": [
